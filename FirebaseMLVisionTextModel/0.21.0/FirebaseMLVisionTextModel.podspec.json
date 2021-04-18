@@ -1,13 +1,13 @@
 {
   "authors": "Google, Inc.",
   "dependencies": {
-    "FirebaseMLVision": "= 7.3.0-beta"
+    "FirebaseMLVision": "~> 0.21"
   },
-  "description": "This is the text scanning feature on iOS. ML Kit is a mobile SDK that brings Google's machine learning expertise to mobile devices in a powerful yet easy-to-use package.",
+  "description": "This pod includes the models required for the text recognition algorithms for iOS devices. With ML Kit's text recognition APIs, you can recognize text in an image in any Latin-based language.",
   "frameworks": [
     "Accelerate",
-    "CoreGraphics",
     "CoreImage",
+    "CoreGraphics",
     "CoreMedia",
     "CoreVideo",
     "Foundation",
@@ -25,14 +25,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "preserve_paths": [
-    "CHANGELOG.md",
-    "README.md"
-  ],
-  "source": {
-    "http": "https://dl.google.com/dl/cpdc/d49ef7f0acea8c37/FirebaseMLVisionTextModel-0.21.0.tar.gz"
+  "resource_bundles": {
+    "GoogleMVTextDetectorResources": [
+      "Resources/GoogleMVTextDetectorResources/**"
+    ]
   },
-  "summary": "Firebase ML Kit Text Scanning SDK for iOS",
+  "source": {
+    "http": "https://dl.google.com/dl/cpdc/69cee9e265c539e6/FirebaseMLVisionTextModel-0.21.0.tar.gz"
+  },
+  "summary": "Text model for Firebase ML Kit Vision SDK on iOS",
   "vendored_frameworks": [
     "Frameworks/FirebaseMLVisionTextModel.framework"
   ],

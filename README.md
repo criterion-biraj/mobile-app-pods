@@ -1,1 +1,1 @@
-# CocoaPodsSpecs
+# Custom Cocoapods specs
