@@ -1,7 +1,7 @@
 {
   "authors": "Google, Inc.",
   "dependencies": {
-    "FirebaseMLVision": "= 7.3.0-beta"
+    "FirebaseMLVision": "= 7.6.0-beta"
   },
   "description": "This pod includes the models required for the text recognition algorithms for iOS devices. With ML Kit's text recognition APIs, you can recognize text in an image in any Latin-based language.",
   "frameworks": [
